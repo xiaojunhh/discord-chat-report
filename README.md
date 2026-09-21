@@ -1,5 +1,7 @@
 # discord-chat-report
 
+[English](README_EN.md) | **简体中文**
+
 给普通 Discord 会员使用的本地 Codex skill：读取指定频道/论坛的可恢复缓存消息，由当前 Codex 会话生成中文总结、离线 HTML、PNG 长图与来源数据。
 
 **状态：本地缓存恢复原型。不是完整聊天历史备份工具。** 读取器不调用 Discord API、不需要 Bot/用户 Token；Python 命令本身不具备 AI 总结能力。
@@ -47,7 +49,7 @@ python scripts/render_report.py reports/RUN_NAME
 
 ```powershell
 git init
-git add .gitignore SKILL.md README.md LICENSE agents scripts references tests examples
+git add .gitignore SKILL.md README.md README_EN.md LICENSE agents scripts references tests
 git diff --cached --stat
 git commit -m "Add Discord local cache report skill"
 git branch -M main
