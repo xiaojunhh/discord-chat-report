@@ -1,0 +1,4 @@
+interface:
+  display_name: "Discord 本地聊天报告"
+  short_description: "恢复本机 Discord 缓存消息，按时间生成有来源的中文报告"
+  default_prompt: "使用 $discord-chat-report 读取指定频道的本地缓存，核对覆盖范围并生成中文总结、离线网页和 PNG 长图。"
